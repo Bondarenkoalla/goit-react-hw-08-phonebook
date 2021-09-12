@@ -1,0 +1,15 @@
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.form_item {
+  display: block;
+}
+.form_item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.button {
+  display: block;
+  width: 150px;
+}
